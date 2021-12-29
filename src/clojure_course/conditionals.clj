@@ -1,4 +1,5 @@
-(ns clojure-course.conditionals)
+(ns clojure-course.conditionals
+  (:gen-class))
 
 (defn cond-if
   []
