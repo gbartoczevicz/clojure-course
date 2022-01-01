@@ -1,22 +1,15 @@
-# clojure-course
+# Clojure Course
 
-A Clojure library designed to ... well, that part is up to you.
+Code created from the [Clojure: The Complete Beginner's Guide](https://www.udemy.com/course/clojureprogramming/) course lessons
 
 ## Usage
 
-FIXME
+- I highly recommend the use of [IntelliJ IDEA](https://www.jetbrains.com/idea/download/index.html) as the code editor for Clojure
+- Alongside IntelliJ I've used the [Cursive plugin](https://cursive-ide.com)
+- [Leiningen](https://leiningen.org) as the Clojure project manager
+- Use the build-in 'Run' from IntelliJ to execute each file from `src/clojure_course` dir
+- Personally I like to use [sdkman](https://sdkman.io) to manage the both Java and Leiningen local versions :)
 
 ## License
 
-Copyright © 2021 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+See [license](./LICENSE)

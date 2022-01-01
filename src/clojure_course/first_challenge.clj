@@ -4,20 +4,22 @@
 (defn implementation
   [age-multiplicand, pet]
 
-  (def PetMultiplierMap {'dog  7
-                         'cat  5
-                         'fish 10})
+  (def
+    PetMultiplierMap {'dog  7
+                      'cat  5
+                      'fish 10})
 
-  (def pet-multiplier (get PetMultiplierMap pet))
+  (def
+    pet-multiplier (get PetMultiplierMap pet))
 
-  (cond (nil? pet-multiplier)
-        (do
-          (throw
-            (Exception.
-              (format
-                "The value '%s' is not a valid pet type" pet)))))
+  (if (nil? pet-multiplier)
+    (throw
+     (Exception.
+      (format
+       "The value '%s' is not a valid pet type" pet))))
 
-  (def age-product (* pet-multiplier age-multiplicand))
+  (def
+    age-product (* pet-multiplier age-multiplicand))
 
   (println pet "with" age-multiplicand "years old has" age-product "years old in human years"))
 

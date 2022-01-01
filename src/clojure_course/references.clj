@@ -9,9 +9,9 @@
   (println "Reference value" @amount)
 
   (dosync
-    (ref-set amount 83))
+   (ref-set amount 83))
   (println "Reference after dosync" @amount)
 
   (dosync
-    (alter amount inc))
+   (alter amount inc))
   (println "Using alter inside dosync :)" @amount))
